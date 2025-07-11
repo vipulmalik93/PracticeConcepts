@@ -14,3 +14,5 @@ function abc () {
 var a = 10;
 
 abc();
+
+// Read about closures from Closure1.md file....
