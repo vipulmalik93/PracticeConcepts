@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Run JS in Browser</title>
+    <style>
+        .button-row {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          width: fit-content;
+        }
+    
+      
+      </style>
 </head>
 <body>
     <h1>Hello from HTML</h1>
-    <script src="JavascriptPractice/Classes/Classes1.js"></script>
-    
+    <div class="button-row">
+        <Button id="myButton">Click Me - I am getting called from Html file</Button>
+        <Button id="myButton1">Click Me - I am getting called from Eventlistener files 1 and 2</Button>
+        <Button id="myButton2">Click Me - I am getting called from Eventlistener files 3 - Increase Count</Button>
+    </div>
+   
+    <script src="JavascriptPractice/EventListeners/EventListener3.js">
+
+    </script>
+
+     
+
+   
+    <script>
+        // Wait for the DOM to be fully loaded
+        window.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById("myButton");
+
+            button.addEventListener("click", function () {
+               console.warn("I am getting called from Html file");
+            });
+        });
+    </script>
 </body>
 </html>
