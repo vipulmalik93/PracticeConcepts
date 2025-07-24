@@ -21,24 +21,30 @@
         <Button id="myButton">Click Me - I am getting called from Html file</Button>
         <Button id="myButton1">Click Me - I am getting called from Eventlistener files 1 and 2</Button>
         <Button id="myButton2">Click Me - I am getting called from Eventlistener files 3 - Increase Count</Button>
+        <Button id="myButton3">Click Me - I am getting called from Eventlistener files 4 - Increase Count and make zero again at every new click than increse it to 1 by ++count.</Button>
+        <Button id="myButton4">Click Me - I am getting called from Eventlistener files 5 - Increase Count - using function closure</Button>
+        <Button id="myButton5">Click Me - I am getting called from Eventlistener files 5 - Increase Count - using function closure and removed on 3 count</Button>
     </div>
    
-    <script src="JavascriptPractice/EventListeners/EventListener3.js">
+
+    <script src="JavascriptPractice/EventListeners/EventListener6.js">
 
     </script>
 
      
 
-   
+   <!-- Inside script example of adding event listener or writing code. we can have multiple script tags or we can write all coe in single script tag.
+    but remember that script tag runs executed from top to bottom means if in last script tag something overrides the first script tag than it overrides
+     prioroty should be to the last one -->
     <script>
         // Wait for the DOM to be fully loaded
-        window.addEventListener("DOMContentLoaded", function () {
-            const button = document.getElementById("myButton");
+        // window.addEventListener("DOMContentLoaded", function () {
+        //     const button = document.getElementById("myButton");
 
-            button.addEventListener("click", function () {
-               console.warn("I am getting called from Html file");
-            });
-        });
+        //     button.addEventListener("click", function () {
+        //        console.warn("I am getting called from Html file");
+        //     });
+        // });
     </script>
 </body>
 </html>
