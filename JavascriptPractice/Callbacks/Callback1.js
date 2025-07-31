@@ -11,5 +11,5 @@ function xyz () {
     xyz1();
 }
 
-xyz(xyz1);
+xyz();
 
