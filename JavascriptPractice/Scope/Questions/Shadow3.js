@@ -17,8 +17,27 @@ function greet() {
 
   console.log("-----------------------");
 
+//   EXAMPLE 2:
 
-// EXAMPLE 2:
+function abc() {
+    console.log("Hello");
+  }
+
+  function def(abc) {
+    abc = function () {
+      console.log("Hi");
+    };
+    return abc;
+  }
+  def(abc)();
+  abc();
+
+
+
+  console.log("-----------------------");
+
+
+// EXAMPLE 3:
 
 function first() {
     console.log("Hello");
@@ -49,7 +68,7 @@ function second() {
 
 
 
-//   Example2:
+//   Example3:
             //   Hi
             //   Hello
 
