@@ -7,6 +7,35 @@ function test5 () {
     inner();
     console.log(a);
   }
-  test();
+  test5();
 
 //   works fine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT:
+    // 20
+    // 10

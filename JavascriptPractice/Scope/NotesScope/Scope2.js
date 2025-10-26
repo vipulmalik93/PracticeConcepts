@@ -10,6 +10,7 @@ function test1() {
   }
   test1();
 //   it won't work because var a is not block scope and the above one is like this means a got declared above inside function test1.
+// it got error at memory creation phase...
 // function test1() {
 //      var a;
 //     let a = 10;

@@ -2,10 +2,12 @@
 function test3() {
     var a = 10;
     if (true) {
-      var b = 20; // both var, no conflict
-      console.log(b); // 20
+      var a = 20; // both var, no conflict
+      console.log(a); 
     }
-    console.log(a); // 10
+    console.log(a); 
   }
+
+  test3()
 
 //  works fine

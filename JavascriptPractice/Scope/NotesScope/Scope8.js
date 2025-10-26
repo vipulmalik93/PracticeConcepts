@@ -12,3 +12,36 @@ console.warn("a-4:", a);
 xyz();
 console.warn("a-5:", a);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT:
+
+//  a-1: 10
+//  a-4: 10
+//  a-2: undefined
+//  a-3: 20
+//  a-5: 10

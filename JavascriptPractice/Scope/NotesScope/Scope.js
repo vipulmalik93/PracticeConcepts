@@ -28,3 +28,20 @@ console.warn("abc:3:", abc);
 
 
 
+
+
+
+
+
+
+
+// OUTPUT OF EXAMPLE2:
+
+// abc:3: 200
+// abc:3: 100
+
+
+
+
+
+
