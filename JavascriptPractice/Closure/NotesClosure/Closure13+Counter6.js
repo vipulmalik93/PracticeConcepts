@@ -16,7 +16,29 @@ function Counter () {
 
 
 var counter1  = new Counter();
-counter1.incrementCounter();
+counter1.incrementCounter();    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // OUTPUT:

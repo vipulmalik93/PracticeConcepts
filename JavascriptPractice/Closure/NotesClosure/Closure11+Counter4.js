@@ -13,9 +13,53 @@ function Counter () {
 
 
 var counter1  = new Counter();
-counter1.count =999;
+counter1.count = 999;
 counter1.incrementCounter();
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT:
+
+
+// OUTPUT:
+    // 1
+
+
+
+
+
+
+
+
+// var counter1  = new Counter(); 
+// when we did this refers to the newly created object counter1 (because you used the new keyword).
 
 // It will print 1 becaue  here inCrement Counter is increasing the private count variable no to the count which we have added later.
 //  Thhe count which we have added later got attached to the counter1 object's property and aslo this of object. Thna why cour increment

@@ -23,3 +23,33 @@ counter2.incrementCounter();
 counter2.decrementCounter();
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT:
+// 1 2 1 
+//  1 2 1
+
+

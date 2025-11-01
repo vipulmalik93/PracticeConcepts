@@ -9,21 +9,16 @@ function outest (xyz1) {
             var c1 = 1000;
             let c2 =2000;
 
-
             console.warn(a1, a2, a3, a4, b1, b2, b3, b4, c1, c2, xyz1, xyz2, xyz3)
 
-
         }
-
 
         var b3 =300;
         let b4 = 400;
 
-
         return inner;
 
     }
-
 
     var a3 =  30;
     let a4 = 40;
@@ -32,6 +27,14 @@ function outest (xyz1) {
 
 }
 
-
 var close = outest("Hiii")("Hello");
 close("vipul");
+
+
+
+
+
+
+// OUTPUT:
+
+    // 0 20 30 40 100 200 300 400 1000 2000 'Hiii' 'Hello' 'vipul'

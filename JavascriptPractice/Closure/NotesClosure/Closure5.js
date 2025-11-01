@@ -15,3 +15,10 @@ outer()();
 // We can also write/call the above on elike this mention below.
 // let result = outer();
 // result();
+
+
+
+
+
+// OUTPUT:
+    // 10,,30, 40

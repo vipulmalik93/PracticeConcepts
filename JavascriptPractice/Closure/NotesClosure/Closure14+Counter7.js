@@ -2,6 +2,8 @@ function Counter () {
     var count = 0;  // PRIVATE variable (not accessible from outside or via `this`)
     this.incrementCounter = function () {
         count++;  // increase PRIVATE count
+        this.count =20;
+
        
         console.log("privateCount:",count);
         console.log("objectCount:",this.count);
@@ -17,6 +19,19 @@ function Counter () {
 
 var counter1  = new Counter();
 counter1.incrementCounter();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

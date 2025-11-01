@@ -11,3 +11,14 @@ function outer (xyz) {
 
 let result  = outer("Hello!");
 result();
+
+
+
+
+
+// OUTPUT:
+//    10, 30, 40, hello
+
+
+// EXPLANATION:
+// It also make closure with the parameters  if they are used some where in the code.
