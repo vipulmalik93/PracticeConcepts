@@ -7,3 +7,31 @@ function makeFunctions() {
   }
   const funcs = makeFunctions();
   console.log("result-->>", funcs[2]());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   OUTPUT: 
+// 5

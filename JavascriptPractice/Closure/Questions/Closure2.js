@@ -9,3 +9,29 @@ function makeFunctions() {
   console.log("result-->>", funcs[2]());
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // OUTPUT:
+  // 2
