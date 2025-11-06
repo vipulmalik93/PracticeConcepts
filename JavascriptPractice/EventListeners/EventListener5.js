@@ -1,6 +1,7 @@
 // by this we have formed closure of cunt with callback function so that no on ecan'r acces count from outside. 
 function AddEventListener () {
     var  count = 0;
+    var count1 =10;
 
     document.getElementById('myButton4').addEventListener("click", function () {
         console.warn("Button clicked from EventListener3 file-->>", "count-->>", ++count );
