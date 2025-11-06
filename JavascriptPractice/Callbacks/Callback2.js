@@ -18,3 +18,34 @@ function xyz () {
 xyz(xyz1);
 var abc2 =30;;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT:
+
+        // xyz 10 20 undefined
+        // xyz1 10 20 undefined
+        // timer 10 20 30
+

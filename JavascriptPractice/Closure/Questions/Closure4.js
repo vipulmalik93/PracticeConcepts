@@ -9,3 +9,34 @@ function outer() {
       }
   const fn = outer();
   fn();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   OUTPUT:
+
+// 1
+// 2
+// 3

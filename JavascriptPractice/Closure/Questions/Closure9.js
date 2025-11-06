@@ -31,3 +31,7 @@ var a = 10;
 
 // OUTPUT:
     // undefined
+
+
+
+    // var aishoistedinsidetheIIFE,shadowingtheoutera.
