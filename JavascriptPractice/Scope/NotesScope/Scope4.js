@@ -11,3 +11,33 @@ function test3() {
   test3()
 
 //  works fine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT:
+    // 20
+    // 20

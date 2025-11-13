@@ -8,3 +8,30 @@ function a() {
   }
   let func = a();
   func();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   OUTPUT: 25

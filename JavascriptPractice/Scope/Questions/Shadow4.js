@@ -7,3 +7,30 @@ function outer() {
 }
 const fn = outer();
 fn();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT:10
