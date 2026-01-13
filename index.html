@@ -18,7 +18,9 @@
 <body>
     <h1>Hello from HTML</h1>
     <div class="button-row">
-        <Button id="myButton">Click Me - I am getting called from Html file</Button>
+        <Button id="myButton-1">Click Me - I am getting called from Html file - Method 1</Button>
+        <Button id="myButton-2">Click Me - I am getting called from Html file - Method 2</Button>
+        <Button id="myButton0">Click Me - I am getting called from Eventlistener files 0</Button>
         <Button id="myButton1">Click Me - I am getting called from Eventlistener files 1 and 2</Button>
         <Button id="myButton2">Click Me - I am getting called from Eventlistener files 3 - Increase Count</Button>
         <Button id="myButton3">Click Me - I am getting called from Eventlistener files 4 - Increase Count and make zero again at every new click than increse it to 1 by ++count.</Button>
@@ -27,7 +29,7 @@
     </div>
    
 
-    <script src="JavascriptPractice/Closure/NotesClosure/Closure+Prototype7.js">
+    <script src="JavascriptPractice/setInterval/setInterval10.js">
 
     </script>
 
@@ -38,13 +40,31 @@
      prioroty should be to the last one -->
     <script>
         // Wait for the DOM to be fully loaded
+        // METHOD1:
         // window.addEventListener("DOMContentLoaded", function () {
-        //     const button = document.getElementById("myButton");
+        //     const button1 = document.getElementById("myButton-1");
 
-        //     button.addEventListener("click", function () {
-        //        console.warn("I am getting called from Html file");
+        //     button1.addEventListener("click", function () {
+        //        console.warn("I am getting called from Html file - method 1");
         //     });
         // });
+
+
+
+
+
+            //  METHOD2;
+
+            // let button2 = document.getElementById("myButton-2");
+
+            // button2.addEventListener("click", function () {
+            //    console.warn("I am getting called from Html file - method 2");
+            // });
+
+            // console.log("button2-->>", window.button2)
+
+
+    
     </script>
 </body>
 </html>
