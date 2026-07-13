@@ -49,3 +49,10 @@ f();
 
 
 
+// Because in strict mode we called f() and increment function is notr called upon on any function that's why in 
+// strict mode it's this points to undefined as in non strict mode in previous example it's this in this type of case 
+// points to window object.
+
+
+
+
